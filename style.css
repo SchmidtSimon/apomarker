@@ -1,3 +1,210 @@
-body{
-    font-family: 'Saira', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Saira");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Reset end */
+* {
+  font-family: 'Saira', sans-serif !important;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+header {
+  height: 100px;
+  padding: 20px;
+}
+
+header .content {
+  padding-top: 0;
+}
+
+header img {
+  height: 50px;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: 'Saira', sans-serif;
+  color: black;
+}
+
+section img {
+  width: 100%;
+}
+
+section #offer {
+  float: left;
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 5px;
+}
+
+section #offer p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+section #offer p:nth-child(even) {
+  color: #AAC811;
+}
+
+section #offer a {
+  font-size: 1rem;
+  background: linear-gradient(90deg, #c7d798 0%, #5bbd8a 100%);
+  transition: all 0.2s ease;
+  border: 1px white solid;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 20px auto;
+  padding: 1rem;
+  display: table;
+}
+
+section #offer a:hover {
+  border: 1px #ebebeb solid;
+}
+
+section #description {
+  width: 50%;
+  margin-left: 50%;
+  padding: 0 10px 0 5px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+
+section #contact a {
+  text-decoration: none;
+  font-family: 'Saira', sans-serif;
+  color: black;
+}
+
+section table {
+  width: 100%;
+}
+
+section table tr td {
+  width: 50%;
+  padding: 5px;
+}
+
+section table tr :nth-child(odd) {
+  text-align: right;
+  color: #AAC811;
+}
+
+section:nth-child(even) {
+  background: #ebebeb;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  padding: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Saira', sans-serif;
+  color: #AAC811;
+}
+
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  visibility: hidden;
+  height: 0px;
+}
+
+@media (max-width: 1200px) {
+  #slider .content {
+    padding: 0;
+  }
+}
+
+@media (max-width: 699px) {
+  section #offer {
+    float: none;
+    width: 100%;
+  }
+  section #description {
+    margin-left: 0;
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+ 
+
+ /*# sourceMappingURL= style.css.map */
