@@ -150,6 +150,14 @@ section:nth-child(even){
     margin: 0 auto;
     padding:50px 0;
 }
+#impressum{
+    padding:0px 20px;
+    a{
+        text-decoration:none;
+        font-family: 'Saira', sans-serif;
+        color:black;
+    }
+}
 footer{
     text-align:center;
     p{

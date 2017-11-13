@@ -166,6 +166,16 @@ section:nth-child(even) {
   padding: 50px 0;
 }
 
+#impressum {
+  padding: 0px 20px;
+}
+
+#impressum a {
+  text-decoration: none;
+  font-family: 'Saira', sans-serif;
+  color: black;
+}
+
 footer {
   text-align: center;
 }
